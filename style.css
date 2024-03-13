@@ -1,0 +1,99 @@
+.arrowdown{
+    width: 1.5%;
+
+}
+
+.welcoming{
+    display: flex;
+    background-color: green;
+    color: white;
+    margin-bottom: 4%;
+}
+
+.navbar{
+    display: flex;
+}
+
+.summer{
+    display: flex;
+}
+
+#terradium{
+    width: 50%;
+    height: 50%;
+}
+
+#inspo{
+    width: 40%;
+}
+
+#orchids{
+    width: 40%;
+}
+
+.sales{
+    width: 20%;
+}
+
+#treding{
+    width: 15%;
+}
+
+.page2{
+    display: flex;
+}
+
+.auctors{
+    width: 150px;
+    /* gap: 5%; */
+}
+
+#popcorn{
+    width:500px;
+    /* height: 10%; */
+}
+
+.column1{
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    gap: 6%;
+}
+
+#text1{
+    color: green;
+    font-style: italic;
+}
+
+.featured{
+    margin-left: 45%;
+}
+
+.page3{
+    display: flex;
+}
+
+#shells{
+    width: 50%;
+    /* margin-right: 10%; */
+}
+
+.button{
+    color: white;
+    background-color: green;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.inbuilttext{
+    background-image: url(Images/greenplanttext.jpg);
+background-position: right;
+background-size: cover;
+background-repeat: no-repeat; 
+padding: 100px;
+
+}
+
+
+.buttons{
+    gap: 5%;
+}
