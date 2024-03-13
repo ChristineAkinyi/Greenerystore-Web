@@ -3,6 +3,11 @@
 
 }
 
+#search{
+    width: 5%;
+    height: 5%;
+}
+
 .welcoming{
     display: flex;
     background-color: green;
@@ -146,12 +151,27 @@ padding: 100px;
         grid-template-columns: 20% 20% 20% 20%; 
         
     }
+
+    .cactustree{
+        width: 80%;
+    }
+
+    #popcorn{
+        width: 90%;
+    }
+
+    .column1{
+        flex-wrap: wrap;
+        grid-template-columns: 20% 15% 15%;
+        gap: 4%;
+    }
+
+    #search{
+        width: 3%;
+        height: 3%;
+    }
     
 
-
-    
-
-    
 }
 
 
