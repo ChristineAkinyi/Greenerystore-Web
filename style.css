@@ -119,7 +119,7 @@ padding: 100px;
     gap: 5%;
 } */
 
-@media screen and (min-width:350px) and (max-width:900px){
+@media screen and (min-width:350px) and (max-width:915px){
    .navbar{
     flex-wrap: wrap;
     }
@@ -140,6 +140,13 @@ padding: 100px;
        flex-wrap: wrap;
         padding-top: 30px;
     }
+
+    .column3{
+        flex-wrap: wrap;
+        grid-template-columns: 20% 20% 20% 20%; 
+        
+    }
+    
 
 
     
