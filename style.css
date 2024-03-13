@@ -28,7 +28,7 @@
 }
 
 #orchids{
-    width: 40%;
+    width: 20%;
 }
 
 .sales{
@@ -93,7 +93,58 @@ padding: 100px;
 
 }
 
-
-.buttons{
-    gap: 5%;
+.prettyvases{
+    width: 20%;
 }
+
+.column3{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%; 
+    
+}
+
+.page5{
+    display: flex;
+    padding-top: 30px;
+}
+
+.flowers{
+    width: 50%;
+}
+
+.page6{
+    display: flex;
+}
+/* buttons{
+    gap: 5%;
+} */
+
+@media screen and (min-width:350px) and (max-width:900px){
+   .navbar{
+    flex-wrap: wrap;
+    }
+
+    .summer{
+        flex-wrap: wrap;
+    }
+
+    .page2{
+        flex-wrap: wrap;
+    }
+
+    .page6{
+        flex-wrap: wrap;
+    }
+
+    .page5{
+       flex-wrap: wrap;
+        padding-top: 30px;
+    }
+
+
+    
+
+    
+}
+
+
