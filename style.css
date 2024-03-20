@@ -2,10 +2,11 @@
 body{
     margin-left: 20%;
     margin-right: 20%;
-}
+} 
 
-.arrowdown{
-    width: 14%;
+#brand{
+    justify-content: space-between;
+    font-size:x-large;
 }
 
 #search{
@@ -25,15 +26,17 @@ body{
     color: white;
     margin-bottom: 4%;
     padding-right: 7%;
-    padding-left: 7%;
+    padding-left: 7%;   
 }
 
 .welcome{
     margin-right: 50%;
+    white-space: nowrap;
 }
 
 .heading1{
     background-image: url(Images/terradium.jpg);
+    width: 100px;
     background-position:initial;
     background-size: cover;
     background-repeat: no-repeat; 
@@ -43,7 +46,7 @@ body{
 }
 
 .amount{
-    color: #96CD8A;
+    color: #9DC05C;
 }
 
 .inspiration{
@@ -52,26 +55,31 @@ body{
 }
 
 .inspo{
-    width: 50%;
+    width: 80%;
     height: 100%;
 }
 
 .inspire{
-    width: 50%;
+    width: 80%;
     height: 100%;
     margin-left: 50%;
 
 }
 
 .love{
-    width: 40%; 
+    width: 13px; 
 }
 
 .part3{
     display: flex;
     background-color: #EEEEEE;
-
 }
+
+span {
+  content: "\2193";
+  margin-top: 2px;
+} 
+
 
 .spring{
     display: flex;
@@ -80,8 +88,20 @@ body{
     
 }
 
-.navbar{
+.topnav{
     display: flex;
+    white-space: nowrap;
+    list-style: none;
+    gap: 5%;
+     /* padding: 30px;  */
+}
+
+.inspotext{
+    white-space: nowrap;
+}
+
+.orchidtext{
+    white-space: nowrap;
 }
 
 .summer{
@@ -100,7 +120,7 @@ body{
 }
 
 .sales{
-    width: 90%;
+    width: 100%;
     margin-top: 45px;
 }
 
@@ -129,7 +149,7 @@ body{
 .page2{
     display: flex;
     margin-top: 4%;
-    gap: 8%;
+    gap: 24%;
 } 
 
 .off{
@@ -138,12 +158,12 @@ body{
 }
 
 .auctors{
-    width: 130px;
+    width: 140px;
 }
 
-.popcorn{
-    width:500px;
-}
+#popcorn{
+    width:400px;
+} 
 
  .main{
     margin-right: 5%;
@@ -152,13 +172,13 @@ body{
 .column1{
     display: grid;
     grid-template-columns: 30% 30% 30%; 
-     gap: 10%;  
+     gap: 15%;  
 }
 
 
 .column2{
     display: grid;
-    gap: 10%;
+    gap: 20%;
     grid-template-columns: 25% 25% 25%;
 }
 
@@ -182,7 +202,7 @@ body{
 }
 
 #shells{
-    width: 130%;
+    width: 400px;
 }
 
 .button{
@@ -203,13 +223,14 @@ body{
     font-size:x-large;
 }
 .prettyvases{
-    width: 60%;
+    width: 80%;
 }
 
 .column3{
-    margin-top: 5%;
+    margin-top: 5%; 
     display: grid;
     grid-template-columns: 20% 20% 20% 20%; 
+    gap: 8%;
 }
 
 .deco{
@@ -241,9 +262,16 @@ body{
     display: flex;
     padding-top: 30px;
     gap: 10%;
+    margin-top: 15px;
 }
+
 .byjinos{
     color: #6EA820;
+}
+
+.amounts{
+    color: #6EA820;
+    font-size: 30px;
 }
 
 
@@ -352,20 +380,271 @@ body{
 .topp{
     color: black;
 }
-@media screen and (min-width:375px) and (max-width:939px){
-   .navbar{
-    font-size:small;
-    flex-wrap: wrap;     
+
+.italicize{
+    font-style: italic;
+    margin-left: 15%;
+}
+
+.clients{
+    font-size: 30px;
+    font-style: italic ;
+}
+.testimonials{
+    margin-left: 30%;
+}
+.delivery{
+    margin-left: 30%;
+    font-style: italic;
+}
+
+.criss{
+    margin-left: 30%;
+}
+
+.amountt{
+    color: #94BD57;
+    margin-left: 5%;
+}
+
+span.one {
+  content: "\27F5";
+  margin-top: 40px;
+  padding-left: 3px;
+}
+
+span.two{
+    content: "\27F5";
+    margin-top: 40px;
+    margin-left: 2px;
+}
+
+/* .modelling{
+    padding: 2px;
+} */
+
+@media screen and (min-width:375px) and (max-width:768px){
+   body{
+    margin-left: 0%;
+    margin-right: 0%;
+   }
+    .topnav{
+        flex-wrap: wrap;
+        white-space: nowrap;
+        list-style: none;
+        gap: 5%;
+        flex-direction: column;
     }
 
     .welcoming{
-        display: flex;
+        flex-wrap: wrap;
         background-color: green;
         color: white;
         margin-bottom: 4%;
-        padding-right: 7%;
-        padding-left: 7%; 
-        width: 145%;
+        width: 330px;
+    }
+
+    .inspire{
+        width: 100px;
+        height: 90%;
+        margin-left: 2px;    
+    }
+
+    .inspo{
+        width: 80%;
+        height: 90%;
+    }
+
+    .sales{
+        width: 90%;
+        margin-top: 70px;
+    }
+
+    #treding{
+        width: 100%;
+        height: 50%;
+    }
+
+    .house{
+        display: flex;
+        gap: 10%;
+    }
+    
+
+    .love{
+        width: 10%; 
+    }
+
+    .arrowdown{
+        width: 5%;
+    }
+
+    .heading1{
+        padding: 80px;
+    }
+
+    .page{
+        flex-wrap: wrap;
+        margin-top: 7%;
+    }
+
+    .colummn1{
+        display: grid;
+        gap: 6%;  
+    } 
+
+    .auctors{
+        width: 80px;
+    }
+
+    .popcorns{
+        width:380px;
+    }
+
+    .shopnow{
+        margin-left: 25%;
+    } 
+
+    #shells{
+        width: 200px;
+        margin-top: 200px;
+        margin-right: 10px;
+    } 
+
+    .tree{
+        font-size: 15px;
+        white-space: nowrap;        
+    }
+
+    .summer{
+        flex-wrap: wrap;
+    }
+
+    .page2{
+        flex-wrap: wrap;
+    }
+
+    .page3{
+        flex-wrap: wrap;
+        gap: 35%;
+    }
+
+    .page6{
+        flex-wrap: wrap;
+    }
+
+    .page5{
+       flex-wrap: wrap;
+        padding-top: 30px;
+    }
+
+    .column3{
+        flex-wrap: wrap;
+        /* display: grid; */
+        /* grid-template-columns: 20% 20% 20% 20%;   */
+        gap: 5%;
+        
+    }
+
+    .page4{
+        width: 350px;
+    }
+
+    .colummn2{
+        display: grid;
+        gap: 10%;
+        grid-template-columns: 25% 25% 25%;
+    }
+
+    #amazing{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .cactustree{
+        width: 170px;
+    }
+
+    #popcorn{
+        width: 70%;
+    }
+
+    #search{
+        width: 3%;
+        height: 3%;
+    }
+
+    .footer{
+      flex-wrap: wrap;
+        margin-left: 5%;
+        margin-right: 5%;
+        gap: 15%;
+    }
+    
+    .info{
+        list-style: none;
+        color: grey;
+        flex-wrap: wrap;
+    }
+
+    .topp{
+        color: black;
+    }
+
+    .newsletter{
+        color: black;
+    }
+
+    .news{
+            list-style: none;
+            color: grey;
+            flex-wrap: wrap;
+        }
+
+        .flower{
+            width: 90%;
+        }
+
+        .flaura{
+            width: 90%;
+        }
+
+        .inbuilttext{
+            background-image: url(Images/premium.jpg);
+            background-size: cover;
+            padding: 40px; 
+        }
+
+        .allplants{
+            display: flex;
+            gap:5%;
+            margin-left: 20%;
+            font-size: 150%;
+        }
+
+        .prettyvases{
+            width: 100%;
+        }
+
+        .flowers{
+            width: 170px;
+        }
+}
+
+@media screen and (min-width:769px) and (max-width:1020px){
+
+    .topnav{
+        flex-wrap: wrap;
+        white-space: nowrap;
+        list-style: none;
+        gap: 5%;
+    }
+
+    .welcoming{
+        flex-wrap: wrap;
+        background-color: green;
+        color: white;
+        margin-bottom: 4%;
+        width: 90%;
     }
 
     .inspire{
@@ -379,7 +658,7 @@ body{
     }
 
     .sales{
-        width: 160%;
+        width: 150%;
         margin-top: 70px;
     }
 
@@ -421,7 +700,7 @@ body{
     }
 
     .popcorns{
-        width:450px;
+        width:380px;
     }
 
     .shopnow{
@@ -429,15 +708,14 @@ body{
     } 
 
     #shells{
-        width: 400%;
+        width: 100%;
         margin-top: 200px;
         margin-right: 10px;
     } 
 
     .tree{
         font-size: 15px;
-
-        
+        white-space: nowrap;        
     }
 
     .summer{
@@ -449,7 +727,7 @@ body{
     }
 
     .page3{
-        display: flex;
+        flex-wrap: wrap;
         gap: 35%;
     }
 
@@ -545,4 +823,201 @@ body{
         }
 }
 
+@media screen and (min-width:1020px) and (max-width:1280px){
+ 
+    .topnav{
+        flex-wrap: wrap;
+        white-space: nowrap;
+        list-style: none;
+        gap: 5%;
+    }
 
+    .welcoming{
+        flex-wrap: wrap;
+        background-color: green;
+        color: white;
+        margin-bottom: 4%;
+        width: 90%;
+    }
+
+    .inspire{
+        width: 90%;
+        height: 90%;    
+    }
+
+    .inspo{
+        width: 80%;
+        height: 90%;
+    }
+
+    .sales{
+        width: 150%;
+        margin-top: 70px;
+    }
+
+    #treding{
+        width: 160%;
+        height: 50%;
+    }
+
+    .house{
+        display: flex;
+        gap: 10%;
+    }
+    
+
+    .love{
+        width: 10%; 
+    }
+
+    .arrowdown{
+        width: 5%;
+    }
+
+    .heading1{
+        padding: 80px;
+    }
+
+    .page{
+        flex-wrap: wrap;
+        margin-top: 7%;
+    }
+
+    .colummn1{
+        display: grid;
+        gap: 6%;  
+    } 
+
+    .auctors{
+        width: 95px;
+    }
+
+    .popcorns{
+        width:380px;
+    }
+
+    .shopnow{
+        margin-left: 25%;
+    } 
+
+    #shells{
+        width: 100%;
+        margin-top: 200px;
+        margin-right: 10px;
+    } 
+
+    .tree{
+        font-size: 15px;
+        white-space: nowrap;        
+    }
+
+    .summer{
+        flex-wrap: wrap;
+    }
+
+    .page2{
+        flex-wrap: wrap;
+    }
+
+    .page3{
+        flex-wrap: wrap;
+        gap: 35%;
+    }
+
+    .page6{
+        flex-wrap: wrap;
+    }
+
+    .page5{
+       flex-wrap: wrap;
+        padding-top: 30px;
+    }
+
+    .column3{
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20%;  
+        gap: 10%;
+        
+    }
+
+    .colummn2{
+        display: grid;
+        gap: 10%;
+        grid-template-columns: 25% 25% 25%;
+    }
+
+    #amazing{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .cactustree{
+        width: 80%;
+    }
+
+    #popcorn{
+        width: 70%;
+    }
+
+    #search{
+        width: 3%;
+        height: 3%;
+    }
+
+    .footer{
+      flex-wrap: wrap;
+        margin-left: 5%;
+        margin-right: 5%;
+        gap: 15%;
+    }
+    
+    .info{
+        list-style: none;
+        color: grey;
+        flex-wrap: wrap;
+    }
+
+    .topp{
+        color: black;
+    }
+
+    .newsletter{
+        color: black;
+    }
+
+    .news{
+            list-style: none;
+            color: grey;
+            flex-wrap: wrap;
+        }
+
+        .flower{
+            width: 120%;
+        }
+
+        .flaura{
+            width: 125%;
+        }
+
+        .inbuilttext{
+            background-image: url(Images/premium.jpg);
+            background-size: cover;
+            padding: 40px; 
+        }
+
+        .allplants{
+            display: flex;
+            gap:5%;
+            margin-left: 20%;
+            font-size: 150%;
+        }
+
+        .prettyvases{
+            width: 100%;
+        }
+
+ 
+
+  
+
+
+}
